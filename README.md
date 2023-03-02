@@ -22,6 +22,6 @@ I used this <a href="https://www.kaggle.com/datasets/denispotapov/cat-breeds-dat
 <img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/devon%20rex15.jpg" width="140" height="140" >
 <img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/devon%20rex29.jpg" width="140" height="140" >
 
-- Some classes have very few images, for example: "York Choclete" cat got only one image and "Chinchilla" cat got 2 images, 
+- Some classes have very few images, for example: "York Choclete" cat got only one image and "Chinchilla" cat got 2 images, So I collected extra images for those classes from the web.
 
 
