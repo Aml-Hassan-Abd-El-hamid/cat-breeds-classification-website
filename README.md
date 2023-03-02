@@ -17,3 +17,9 @@ I used this <a href="https://www.kaggle.com/datasets/denispotapov/cat-breeds-dat
 - the cat isn't always the only thing in the image or even the center of it.<br> 
 - there's a huge variation inside the calss, you can see for example those pictures that comes from the "devon rex" class:
 
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/184devon%20rex328.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/21devon%20rex6.jpg" width="140" height="140" >
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/2devon%20rex2.jpg" width="140" height="140" >
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/devon%20rex15.jpg" width="140" height="140" >
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/devon%20rex29.jpg" width="140" height="140" >
+
+
