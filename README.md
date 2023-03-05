@@ -5,8 +5,8 @@ The idea of this applicatin is to classify the flower images that the user uploa
 
 I divided this project into 5 steps:
 
-- Chosing The dataset.<br>
-- Training the model.<br>
+- Handling The dataset.<br>
+- Modeling.<br>
 - deploy the model with Flask.<br>
 - Design and Front-end of the application.<br>
 
@@ -23,13 +23,16 @@ I used this <a href="https://www.kaggle.com/datasets/denispotapov/cat-breeds-dat
 <img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/devon%20rex29.jpg" width="140" height="140" >
 
 - Some classes have very few images, for example: "York Choclete" cat got only one image and "Chinchilla" cat got 2 images, So I collected extra images for those classes from the web.
-- The 3 folders: "Domestic Short Hair", "Domestic Medium Hair" and "Domestic Long Hair" aren't really cat breeds, that kinds of cats have a blended ancestry and that's why they could be really confusing to any model to recognize them, and the "Domestic Short Hair" folder got about 49,900 images alone - the dataset has about 118,000 images in total - so it created a highly imbalanced dataset, I dealt with that problem by removing those classes from the dataset. 
+
+- The 3 folders: "Domestic Short Hair", "Domestic Medium Hair" and "Domestic Long Hair" aren't really cat breeds, that kinds of cats have a blended ancestry and that's why they could be really confusing to any model to recognize them, and the "Domestic Short Hair" folder got about 49,900 images alone - the dataset has about 118,000 images in total - so it created a highly imbalanced dataset, I dealt with that problem by removing those classes from the dataset.
+
 - The folder "Canadian Hairless" contained only 4 images and non of them were hairless! was really suspicious so after failing to find any websites that talk about "Canadian Hairless", I used google lense to look up those images one of the images -which is shown bellow - was so close to the Calico cat breed so given that fact + the fact that I wasn't able to collect any more images of the "Canadian Hairless" I decided to ignore that class. 
 <img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/34851962_6.jpg" width="140" height="140" >
 
-- Also I found that "Tortoiseshell", "Tabby",  "Torbie" , "Dilute Tortoiseshell", "Calico", "Tuxedo".  are not really breeds accourding to those articles: https://petventuresbook.com/blogs/blog/differences-between-tabby-torbie-and-tortoise-shell-cats , https://betterwithcats.net/dilute-tortoiseshell-cat/ , https://www.ivankhristravels.com/2021/11/dilute-calico-cats.html , https://www.cattownoakland.org/cat-town-blog/2021/04/calico-cat-facts-to-know , https://rawznaturalpetfood.com/tuxedo-cats/. So I ignored those classes.
+- Also I found that "Tortoiseshell", "Tabby",  "Torbie" , "Dilute Tortoiseshell", "Calico", "Tuxedo".  are not really breeds accourding to those articles:<br> https://petventuresbook.com/blogs/blog/differences-between-tabby-torbie-and-tortoise-shell-cats <br> https://betterwithcats.net/dilute-tortoiseshell-cat/ <br> https://www.ivankhristravels.com/2021/11/dilute-calico-cats.html <br> https://www.cattownoakland.org/cat-town-blog/2021/04/calico-cat-facts-to-know <br> https://rawznaturalpetfood.com/tuxedo-cats/. So I ignored those classes.
 
 - Also accourding to my search there's no breed that's called "Silver", So I ignored this class.
 
 - The class that was named : "Tiger" in the folders doesn't really contains tigers images insted it contains images of a breed that's called "Toyger", so I renamed this folder to be "Toyger tiger cat" to remove the confusion.
 
+**In the end, I was left with a total of 37234 images in the dataset and 55 cat breeds, instead of 118775 images and 67 cat breeds.**
