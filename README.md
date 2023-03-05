@@ -26,8 +26,8 @@ I used this <a href="https://www.kaggle.com/datasets/denispotapov/cat-breeds-dat
 
 - The 3 folders: "Domestic Short Hair", "Domestic Medium Hair" and "Domestic Long Hair" aren't really cat breeds, that kinds of cats have a blended ancestry and that's why they could be really confusing to any model to recognize them, and the "Domestic Short Hair" folder got about 49,900 images alone - the dataset has about 118,000 images in total - so it created a highly imbalanced dataset, I dealt with that problem by removing those classes from the dataset.
 
-- The folder "Canadian Hairless" contained only 4 images and non of them were hairless! was really suspicious so after failing to find any websites that talk about "Canadian Hairless", I used google lense to look up those images one of the images -which is shown bellow - was so close to the Calico cat breed so given that fact + the fact that I wasn't able to collect any more images of the "Canadian Hairless" I decided to ignore that class. 
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/34851962_6.jpg" width="140" height="140" >
+- The folder "Canadian Hairless" contained only 4 images and non of them were hairless! was really suspicious so after failing to find any websites that talk about "Canadian Hairless", I also used google lense to look up those images and was
+able to get nothing useful so given that fact + the fact that I wasn't able to collect any more images of the "Canadian Hairless" I decided to ignore that class for now.
 
 - Also I found that "Tortoiseshell", "Tabby",  "Torbie" , "Dilute Tortoiseshell", "Calico", "Tuxedo".  are not really breeds accourding to those articles:<br> https://petventuresbook.com/blogs/blog/differences-between-tabby-torbie-and-tortoise-shell-cats <br> https://betterwithcats.net/dilute-tortoiseshell-cat/ <br> https://www.ivankhristravels.com/2021/11/dilute-calico-cats.html <br> https://www.cattownoakland.org/cat-town-blog/2021/04/calico-cat-facts-to-know <br> https://rawznaturalpetfood.com/tuxedo-cats/. So I ignored those classes.
 
