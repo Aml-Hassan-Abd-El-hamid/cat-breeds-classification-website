@@ -7,8 +7,7 @@ I divided this project into 5 steps:
 
 - Handling The dataset.<br>
 - Modeling.<br>
-- deploy the model with Flask.<br>
-- Design and Front-end of the application.<br>
+- Bulding the website.<br>
 
 ## The dataset
 
@@ -43,3 +42,9 @@ I used Transfer learning to help with modling this dataset, that was my first ti
 https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html <br>
 https://www.learnpytorch.io/06_pytorch_transfer_learning/ <br>
 <br>I started by using smaller networks : AlexNet and ResNet18 but both of them didn't give me a good performance, I trained both of them for almost 50 epochs and the best accuracy that I mange to get was 51%, So I made an assumption that given the complexity of the images and the variation inside the classes, I need to use a more complex network, and I tried ResNet50
+
+## Bulding the website
+
+As someone who have never dealed with backend or machine learning deployment before this project, I wanted this project to be a gentle and nice start for me, I used Flask for the backend and Bootstrap 5 for the fornt-end, I found a couple of good tutriols that I would like to share : <br>
+https://towardsdatascience.com/build-a-web-application-for-predicting-apple-leaf-diseases-using-pytorch-and-flask-413f9fa9276a <br>
+https://www.w3schools.com/bootstrap5/
