@@ -10,7 +10,7 @@ I divided this project into 5 steps:
 - deploy the model with Flask.<br>
 - Design and Front-end of the application.<br>
 
-### The dataset: 
+## The dataset
 
 I used this <a href="https://www.kaggle.com/datasets/denispotapov/cat-breeds-dataset-cleared">dataset </a> on kaggle which is a cleaner version of this <a href="https://www.kaggle.com/datasets/ma7555/cat-breeds-dataset" >dataset</a> ,**huge thank you for @denred0 for his work**, The dataset contains 67 different cat breeds, and even after the cleaning that was done, the dataset still challenging for the follwing reasons: 
 
@@ -35,4 +35,11 @@ I used this <a href="https://www.kaggle.com/datasets/denispotapov/cat-breeds-dat
 
 - The class that was named : "Tiger" in the folders doesn't really contains tigers images insted it contains images of a breed that's called "Toyger", so I renamed this folder to be "Toyger tiger cat" to remove the confusion.
 
-**In the end, I was left with a total of 37234 images in the dataset and 55 cat breeds, instead of 118775 images and 67 cat breeds.**
+**In the end, I was left with a total of 37,234 images in the dataset and 55 cat breeds, instead of 118,775 images and 67 cat breeds.**
+
+## Modling
+
+I used Transfer learning to help with modling this dataset, that was my first time to use transfer learning and those 2 tutriols were really usefull:<br>
+https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html <br>
+https://www.learnpytorch.io/06_pytorch_transfer_learning/ <br>
+<br>I started by using smaller networks : AlexNet and ResNet18 but both of them didn't give me a good performance, I trained both of them for almost 50 epochs and the best accuracy that I mange to get was 51%, So I made an assumption that given the complexity of the images and the variation inside the classes, I need to use a more complex network, and I tried ResNet50
