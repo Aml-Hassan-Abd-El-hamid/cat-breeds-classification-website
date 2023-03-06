@@ -49,3 +49,15 @@ https://www.learnpytorch.io/06_pytorch_transfer_learning/ <br>
 As someone who has never dealt with backend or machine learning deployment before this project, I wanted this project to be a gentle and nice start for me, I used Flask for the backend and Bootstrap 5 for the front-end, I found a couple of good tutorials that I would like to share: <br>
 https://towardsdatascience.com/build-a-web-application-for-predicting-apple-leaf-diseases-using-pytorch-and-flask-413f9fa9276a <br>
 https://www.w3schools.com/bootstrap5/
+
+
+## Preview : 
+
+
+
+
+
+
+https://user-images.githubusercontent.com/66205928/223043414-f518582c-b21b-47f0-a500-3c9c03e67ae4.mp4
+
+
