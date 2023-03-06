@@ -41,7 +41,7 @@ able to get nothing useful so given that fact + the fact that I wasn't able to c
 I used Transfer learning to help with modling this dataset, that was my first time to use transfer learning and those 2 tutriols were really usefull:<br>
 https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html <br>
 https://www.learnpytorch.io/06_pytorch_transfer_learning/ <br>
-<br>I started by using smaller networks : AlexNet and ResNet18 but both of them didn't give me a good performance, I trained both of them for almost 50 epochs and the best accuracy that I mange to get was 51%, So I made an assumption that given the complexity of the images and the variation inside the classes, I need to use a more complex network, and I tried ResNet50
+<br>I started by using smaller networks and I was freezing the feature extractor layers and only put the fully connected layer into training : AlexNet and ResNet18 but both of them didn't give me a good performance, I trained both of them for almost 50 epochs and the best accuracy that I mange to get was 51%, So I made an assumption that given the complexity of the images and the variation inside the classes, I need to use a more complex network, and I tried ResNet50, it give me 70% training accuracy and 20% validation accuracy which was so bad overfitting. 
 
 ## Bulding the website
 
