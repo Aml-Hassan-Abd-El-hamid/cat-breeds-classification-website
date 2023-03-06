@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+	<form class="form-signin" method=post enctype=multipart/form-data >
+		<img src="{{url_for('static', filename='logo.png')}}" align="middle" />
+		<h1 class="h1 mb-3 font-weight-normal"> I think your cat is : {{ name }}</h1>
+		<h2 class="h2 mb-3 font-weight-normal"> I hope that my guess is right!</h2>
+		<h3 class="h5 mb-3 font-weight-normal"> {{ description }} </p> 
+		<p class="mt-5 mb-3 text-muted">Made by PyTorch, Flask and a lot of Love 💟.</p>
+		<div class="row">
+			<div class="col-sm-4 align-self-center"><img src="/static/pt.png" alt="" width="60"></div>
+			<div class="col-sm-4 align-self-center"><img src="/static/flask.png" alt="" width="90"></div>
+			<div class="col-sm-4 align-self-center"><img src="/static/bs.png" alt="" width="50"></div>
+		</div>
+	</form>
+{% endblock %}

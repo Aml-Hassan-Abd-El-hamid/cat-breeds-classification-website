@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	    <style>
+	      .bd-placeholder-img {
+	        font-size: 1.125rem;
+	        text-anchor: middle;
+	      }
+		header{
+			background-image: url({{url_for('static', filename='7259775.jpg')}});
+			background-size: cover;
+			background-attachment: scroll;
+			height: 700px;
+			text-align: center;
+			text-align-last:center;
+			background-position: center;
+			color: rgb(250, 250, 250);
+		}
+		.tit{
+			padding-top: 220px;
+			font-size: 100px;
+		}
+		.see{
+			font-size: 50px;
+		}
+		.upload{
+			padding-top: 20px;
+			font-size: 20px;
+		}
+		.cat_intro{
+			max-width:40%;
+			height:auto;
+		}
+		body{
+			background-color: rgba(99, 21, 168, 0.259); 
+		}
+
+	      @media (min-width: 768px) {
+	        .bd-placeholder-img-lg {
+	          font-size: 3.5rem;
+	        }
+	      }
+	    </style>
+
+		<title>{{ title }}</title>
+	</head>
+	<body class="text-center">
+		{% block content %}{% endblock %}
+
+		
+	</body>
+</html>

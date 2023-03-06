@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block content %}
+<header>
+	<p class="tit">
+		Welcome to Cat Classifer 
+	</p>
+</header>
+
+	<form class="form-signin" method=post enctype=multipart/form-data>
+		<img class="cat_intro" src="{{url_for('static', filename='cartoon-cute-cats-playing-computer-vector-removebg (1).png')}}" align="middle" />
+		<h1  class="see">Let's see what kind of Cat you've got!</h1>
+		<h2   class="upload">Please Upload The Image</h2>
+		<input type="file" name="file"  id="inputfile"  class="h5 mb-3 font-weight-normal" onchange="preview_image(event)">
+		<br />
+		<img id="output-image" class="rounded mx-auto d-block"/>
+		<button class="btn btn-lg btn-light "  type="submit">Upload</button>
+		<p class="mt-5 mb-3 text-muted">Built by Aml Hassan Esmil.</p>
+		<div class="row">
+			<div class="col-sm-4 align-self-center"><img src="/static/pt.png" alt="" width="60"></div>
+			<div class="col-sm-4 align-self-center"><img src="/static/flask.png" alt="" width="90"></div>
+			<div class="col-sm-4 align-self-center"><img src="/static/bs.png" alt="" width="50"></div>
+		</div>
+	</form>
+	
+
+	<script type="text/javascript">
+		function preview_image(event) {
+			var reader = new FileReader();
+			reader.onload = function(){
+				var output = document.getElementById('output-image')
+				output.src = reader.result;
+			}
+			reader.readAsDataURL(event.target.files[0]);
+		}
+	</script>
+{% endblock %}
