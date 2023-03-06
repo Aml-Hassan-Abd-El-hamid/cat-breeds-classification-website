@@ -1,9 +1,10 @@
 # Cat breeds classification website
 
-My first attempt to deploy a machine-learning model! So I will really appreciate your feedback on the discussion section.
-The idea of this application is to classify the flower images that the user uploads and give the user some info about that flower.
+My first attempt to deploy a machine-learning model!<br> So I will really appreciate your feedback on the discussion section.
 
-I divided this project into 5 steps:
+The idea of this application is to classify the cat images that the user uploads and give the user the cat's breed.
+
+I divided this project into 3 main stages:
 
 - Handling The dataset.<br>
 - Modeling.<br>
