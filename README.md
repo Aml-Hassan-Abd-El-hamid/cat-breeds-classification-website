@@ -62,3 +62,14 @@ https://www.w3schools.com/bootstrap5/
 https://user-images.githubusercontent.com/66205928/223043414-f518582c-b21b-47f0-a500-3c9c03e67ae4.mp4
 
 
+### To do next:
+
+1 - upgrade the preformance:
+- Try to clean the data more.
+- Gather more data fro the classes with less images.
+- Try different modells: 
+a - Transformers?
+b - Try creating 2 different models: one to detect the cat in the image and the other to classify it.
+
+2 - upgrade the website:
+- Add a database to provide info about the cat in interest
