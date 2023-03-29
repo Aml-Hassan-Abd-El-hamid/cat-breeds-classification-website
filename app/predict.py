@@ -7,6 +7,7 @@ from PIL import Image
 from torchvision.models import  ResNet50_Weights
 import random
 import numpy as np
+model_path="5tensor(0.5101, device='cuda_0', dtype=torch.float64)resnet34.pt"
 class_names={0: 'Abyssinian',
               1: 'American Bobtail',
               2: 'American Curl',
@@ -69,7 +70,7 @@ def get_cat_breed(img):
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.benchmark = False
         dev = "cuda" if torch.cuda.is_available() else "cpu"
-        model = torch.load("5tensor(0.5101, device='cuda_0', dtype=torch.float64)resnet34.pt",map_location=torch.device(dev))
+        model = torch.load(model_path,map_location=torch.device(dev))
         model.eval()
         tensor=transform_image(img) 
         outputs=model.forward(tensor)
