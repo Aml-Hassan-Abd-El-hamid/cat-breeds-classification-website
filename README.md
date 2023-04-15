@@ -65,7 +65,7 @@ https://user-images.githubusercontent.com/66205928/223043414-f518582c-b21b-47f0-
 ### To do next:
 
 1 - upgrade the preformance:
-- Try to clean the data more.
+- Try to clean the data more.  ✅
 - Gather more data fro the classes with less images.
 - Try different modells: 
 a - Transformers?
