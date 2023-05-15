@@ -16,11 +16,7 @@ I first started by using  this <a href="https://www.kaggle.com/datasets/denispot
 
 - there's a huge variation inside the class, you can see for example those pictures that come from the "Abyssinian" class:
 
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_109.jpg" width="140" height="140" >
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_110.jpg" width="140" height="140" >
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_113.jpg" width="140" height="140" >
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_112.jpg" width="140" height="140" >
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_118.jpg" width="140" height="140" >
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_109.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_110.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_113.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_112.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_118.jpg" width="140" height="140" >
 
 - Some classes have very few images, for example, the "York Chocolate" cat got only one image and the "Chinchilla" cat got 2 images, So I collected extra images for those classes from the web.
 
