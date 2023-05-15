@@ -32,10 +32,13 @@ Even after Building a new dataset dealing with this task was extremly hard for t
 
 <img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_109.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_110.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_113.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_112.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_118.jpg" width="140" height="140" >
 
-- There are a lot of similarties between different cat breeds:
+- There are a lot of similer cat breeds that are really hard to differentiate from each others:
 
-for example, the image on the left is from the "Siamese" class and the one in the right is from "Burmese" class:
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Siamese_207.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/29875697_665.jpg" width="140" height="140" ><img 
+for example, the image on the left is from the "Siamese" class and the one in the right is from "Burmese" class:<br>
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Siamese_207.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/29875697_665.jpg" width="140" height="140" > 
+
+anther example, the image on the left is from the "Bengal" class and the one in the right is from "Egyptian Mau" class:<br>
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Bengal_119.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Egyptian_Mau-19074223_1010.jpg" width="140" height="140" > 
 
 ## Modling
 
