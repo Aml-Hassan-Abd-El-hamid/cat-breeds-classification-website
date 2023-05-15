@@ -1,27 +1,26 @@
 # Cat breeds classification website
 
-My first attempt to deploy a machine-learning model!<br> So I will really appreciate your feedback on the discussion section.
-
 The idea of this application is to classify the cat images that the user uploads and give the user the cat's breed.
 
 I divided this project into 3 main stages:
 
-- Handling The dataset.<br>
+- The dataset.<br>
 - Modeling.<br>
 - Building the website.<br>
 
 ## The dataset
 
-I used this <a href="https://www.kaggle.com/datasets/denispotapov/cat-breeds-dataset-cleared">dataset </a> on Kaggle which is a cleaner version of this <a href="https://www.kaggle.com/datasets/ma7555/cat-breeds-dataset" >dataset</a> ,**huge thank you for @denred0 for his work**, The dataset contains 67 different cat breeds, and even after the cleaning that was done, the dataset still challenging for the following reasons: 
+I first started by using  this <a href="https://www.kaggle.com/datasets/denispotapov/cat-breeds-dataset-cleared">dataset </a> on Kaggle But the dataset was really dirty, a lot of pictures were wrong: 
 
 - the cat isn't always the only thing in the image or even the center of it.<br> 
 
-- there's a huge variation inside the class, you can see for example those pictures that come from the "devon rex" class:
+- there's a huge variation inside the class, you can see for example those pictures that come from the "Abyssinian" class:
 
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/184devon%20rex328.jpg" width="140" height="140" ><img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/21devon%20rex6.jpg" width="140" height="140" >
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/2devon%20rex2.jpg" width="140" height="140" >
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/devon%20rex15.jpg" width="140" height="140" >
-<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/devon%20rex29.jpg" width="140" height="140" >
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_109.jpg" width="140" height="140" >
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_110.jpg" width="140" height="140" >
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_113.jpg" width="140" height="140" >
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_112.jpg" width="140" height="140" >
+<img src="https://github.com/Aml-Hassan-Abd-El-hamid/cat-breeds-classification-website/blob/main/readme_images/Abyssinian_118.jpg" width="140" height="140" >
 
 - Some classes have very few images, for example, the "York Chocolate" cat got only one image and the "Chinchilla" cat got 2 images, So I collected extra images for those classes from the web.
 
