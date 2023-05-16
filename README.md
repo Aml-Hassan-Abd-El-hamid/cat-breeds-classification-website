@@ -42,10 +42,18 @@ anther example, the image on the left is from the "Bengal" class and the one in 
 
 ## Modling
 
-I used Transfer learning to help with modeling this dataset, that was my first time using transfer learning and those 2 tutorials were really useful:<br>
+I used Transfer learning to help with modeling this dataset, if that's your first time hearing of transfer learning I recommend those 2 tutorials as they were really useful:<br>
 https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html <br>
 https://www.learnpytorch.io/06_pytorch_transfer_learning/ <br>
-<br>I started by using smaller networks and I was freezing the feature extractor layers and only put the fully connected layer into training: ResNet18 it didn't give me a good performance, I trained it with almost 50 epochs and the best accuracy that I manage to get was 51% training and 25% testing, I made an assumption that given the complexity of the images and the variation inside the classes, I need to use a more complex network, and I tried ResNet50, it gives me 70% training accuracy and 20% validation accuracy which was so bad overfitting. For my last network -last for now :) - I changed my technique a little bit and stopped freezing the feature extractor part, I still initialized the network as pre-trained but instead of only modifying the fully connected layer, I was modifying the whole network, I used ResNet34 architecture, trained it with a decaying learning rate for 15 epochs and got 65% training accuracy and 51% testing accuracy.<br>
+
+I experimented with a variety of pre-trained classes for this task. 
+
+I used AlexNet, Inception, ResNet18, ResNet34, and ResNet50.
+
+The one who won this battle was ResNet50 which give me 69% training accuracy and 64% test accuracy.
+
+Some classes of curses got better accuracy than others, the class with the best accuracy -almost 100%- is the Sphynx class which makes sense because this breed of cat looks very unique.
+
 
 ## Building the website
 
