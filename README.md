@@ -50,7 +50,7 @@ I experimented with a variety of pre-trained classes for this task.
 
 I used AlexNet, Inception, ResNet18, ResNet34, and ResNet50.
 
-The one who won this battle was ResNet50 which give me 69% training accuracy and 64% test accuracy.
+The one who won this battle was ResNet50 which give me 69% training accuracy and 66% test accuracy.
 
 Some classes of curses got better accuracy than others, the class with the best accuracy -almost 100%- is the Sphynx class which makes sense because this breed of cat looks very unique.
 
